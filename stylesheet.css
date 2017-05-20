@@ -21,3 +21,17 @@ float:left;
 
 
 }
+
+
+#corp, #author
+{
+    display:inline;
+}
+
+#author{
+	float:right;
+	
+	
+	
+	}
+
