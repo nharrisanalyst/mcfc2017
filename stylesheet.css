@@ -1,3 +1,9 @@
+#body{
+ background-color:	white;
+
+}
+
+
 #root{
 float:left;
 
@@ -17,21 +23,39 @@ float:left;
 
 #header{
 	text-align: center;
-
-
-
+	
 }
 
 
-#corp, #author
-{
-    display:inline;
-}
+
+
+
+
+
 
 #author{
-	float:right;
+   float:right;
+   
+   display:inline;
+
+}
+
+#corp{
+width:500px;
+margin:0px;
+
+display:inline;
+
+}
 	
 	
-	
-	}
+#shareButtons{
+	 clear:both;
+	 
+	 margin-top: 690px;
+ 
+
+
+}
+.twitter-share-button[style] { vertical-align: text-bottom !important; }
 
