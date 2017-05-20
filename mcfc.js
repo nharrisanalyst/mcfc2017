@@ -213,3 +213,11 @@ d3.queue()
  }
  
   d3.select("#mainsvg").on("click",masterClick);
+  //header making it so it will be responsive in the future to any input
+  var team = 'MCFC'
+  
+  
+  var header = d3.select('#header')
+  
+     header.append('h1').append('div').attr('class','teamHeader').text(team+' minutes played per player through out the 2016-2017 season.').style('color','#c0dff2')
+     header.append('p').attr('class','teamHeader').attr('id','textHeader').text('Scroll over players names or their line path to highlight them. Click on a player to single them out, and reset the chart by clicking on it.')
